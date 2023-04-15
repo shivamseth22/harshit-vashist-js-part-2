@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ body{
+    font-family: cursive;
+ }
+
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+.box{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 5rem;
+    color: rgb(205, 23, 23);
+    font-weight: bold;
+    cursor: pointer;
+
+    
+ }
+ .grandparent{
+    background: rgb(99, 99, 131);
+    color: rgb(0, 0, 0);
+ }
+ .parent{
+    background: pink;
+
+ }
+ .child{
+    background-color: aqua;
+ }
